@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <nav>
+        <h1 class="logo">Nenye Mba </h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="menu" id="menu-icon">
+          <img src="./icons8-menu-30.png">
+        </button>
+  </nav>
+<main>
+  <div class="intro">
+    <h1 >Hello <span class="material-symbols-outlined">
+      waving_hand
+      </span>,</h1>
+       <h1>I'm Nenye Mba, I build beautiful things. </h1>
+       <button class="btn">Let's Connect!
+       </button>
+    </div> 
+</main>
+<section class="about">
+  <div>
+    <h1 class="heading">About Me</h1>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, quo nam. Tenetur voluptates officia ullam voluptatem, minima laboriosam accusamus repellat eligendi dicta ipsum corporis voluptas sit id odit quos cupiditate libero optio, reiciendis eius architecto. Dolore dolores in ex. Dignissimos, laudantium doloribus. Illo atque harum officia a dolore optio voluptas!</p>
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ullam eaque, suscipit non veniam dolor, autem aut aliquam tempore quo molestias deserunt. Vel libero alias beatae. Neque facilis atque consectetur.</p>
+  </div>
+</section>
+<section class="skills" id="skills">
+  <div>
+  <h1 class="heading"> My Skills</h1>
+  <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos placeat debitis veritatis in inventore ipsum expedita, sunt doloribus repudiandae distinctio!</p>
+  <div class="skillset">
+    
+      <div class="container">
+        <img src="./icons8-html-5-50.png" alt=""
+        loading="lazy"
+        class="icon icon-card">
+      <img src="./icons8-css3-50.png" alt=""
+      loading="lazy"
+      class="icon icon-card">
+      <img src="./icons8-bootstrap-48.png" alt=""
+      loading="lazy"
+      class="icon icon-card">
+    </div>
+      <div class="container">
+        <img src="./icons8-javascript-logo-50.png" alt=""
+        loading="lazy"
+        class="icon icon-card">
+      <img src="./icons8-git-50.png" alt=""
+      loading="lazy"
+      class="icon icon-card">
+      <img src="./icons8-github-50.png" alt=""
+      loading="lazy"
+      class="icon icon-card">
+    </div>
+    
+  </div>
+</div>
+</section>
+<section class="project" id="projects">  
+  <div>
+  <h1 class="heading">My Projects</h1>
+  <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis amet voluptatum earum obcaecati repellat et magni hic aspernatur nobis voluptates.</p>
+</div>
+<div class="project-container">
+  <div class="pro-container"><h1>Project 1</h1></div>
+  <div class="pro-container"><h2>project 2</h2></div>
+  <div class="pro-container" ><h1>Project 3</h1></div>
+  <div class="pro-container"><h1>Project 4</h1></div>
+  
+</div>
+</section>
+<section class="contact" id="contact">
+<h1 class="heading"> Contact Me</h1>
+<div class="contact-form-container">
+  <div class="contact-form">
+    <form action="" method="POST">
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="sender-name"
+          placeholder="Enter Your Name"
+          class="input-field"
+          required
+        />
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="sender-email"
+          placeholder="Enter Your Email"
+          class="input-field"
+          required
+        />
+      </div>
+      <div class="form-control">
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          cols="60"
+          rows="10"
+          placeholder="Enter Your Message"
+          name="message"
+          class="input-field"
+          required
+        ></textarea>
+      </div>
+      <input
+        type="submit"
+        value="Submit"
+        id="submit-btn"
+        class="submit-btn"
+      />
+    </form>
+  </div>
+</div>
+
+</section>
+<script src="./index.js"></script>
+</body>
+</html>

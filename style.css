@@ -1,0 +1,255 @@
+
+
+  /* CSS Resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: antiquewhite;
+  }
+  .logo{
+    color:#03181c;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+      color:#03181c;
+  }
+  
+  a:hover {
+    border-bottom: solid 2px #03181c;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  nav {
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+  }
+  .intro {
+    color:#03181c;
+    padding-top:0;
+    margin-top:0;
+  }
+  
+  nav  a {
+    color:#03181c;
+  }
+  nav a:hover {
+    border-bottom: solid 2px #03181c;
+    filter: brightness(90%);
+    padding:5px;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight:bold;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    height:100vh;
+  }
+  p{
+    padding-top:10px;
+    word-wrap: break-word;
+  }
+  .btn{
+    padding:5px;
+    margin:10px;
+    border-radius: 4px;
+    border:none;
+    color:antiquewhite;
+    background-color: #03181c;
+    cursor: pointer;
+  }
+  .btn:hover{
+    padding:8px;
+     
+  }
+  .heading{
+    text-align: center;
+    padding:20px;
+    margin:20px;
+  }
+  .about{
+    height:100vh;
+    background-color: #03181c;
+    color:antiquewhite;
+    font-size: 1.2rem;
+  }
+  .para{
+    padding:10px;
+    margin:10px;
+  }
+  .skills{
+    height:100vh;
+    background-color:antiquewhite ;
+    color:#03181c;
+    font-size: 1.2rem;
+  }
+  .project{
+    height:100vh;
+    background-color: #03181c;
+    color:antiquewhite;
+    font-size: 1.2rem;
+    padding:20px 0;
+    margin-top:2rem;
+  }
+  .skillset{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  .container img{
+    padding: 1.25rem;
+  }
+  .icon {
+    width: 8rem;
+    height: 8rem;
+  }
+  .icon-card {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+  }
+  .menu{
+    font-size: 2rem;
+  border: 0;
+  background-color: antiquewhite;
+  cursor: pointer;
+  display: none;
+  }
+  .project-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pro-container{
+    text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+
+  }
+  .contact {
+    margin-top: 2rem;
+  }
+  
+  
+  .contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px;
+  }
+  .contact-form-container label {
+    line-height: 2.7em;
+    font-weight:bold;
+    color: #03181c;
+  }
+  
+  .contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+  }
+  
+  .contact-form-container .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset #03181c;
+    font-size: 0.875rem;
+    outline: none;
+  }
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid #03181c;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+  }
+  .submit-btn:hover {
+    background-color:#03181c ;
+    border: 2px solid antiquewhite;
+    cursor: pointer;
+    color:antiquewhite;
+  }
+  @media screen and (max-width: 720px) {
+    nav {
+      padding: 1.5rem 1rem;
+    }
+    nav ul {
+      position: fixed;
+      background-color: #03181c;
+      flex-direction: column;
+      top: 86px;
+      left: 10%;
+      width: 80%;
+      text-align: center;
+      transform: translateX(120%);
+      transition: transform 0.5s ease-in;
+    }
+  
+     nav ul li {
+      margin: 8px;
+    }
+    .menu{
+      display:block;
+    }
+    nav ul.show {
+      transform: translateX(0);
+    }
+    .icon{
+      width:4rem;
+      height:4rem;
+    }
+    .project-container{
+flex-direction: column;
+    }
+    .pro-container{
+      width:20rem;
+    }
+    .contact-form-container {
+      max-width: 23.75rem;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    
+  
+    
+  
+    .project-container {
+      width: 17.875rem;
+    }
+  
+    .contact-form-container {
+      max-width: 17.75rem;
+    }
+  } 
